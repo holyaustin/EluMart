@@ -7,7 +7,7 @@ export default function HomePage() {
     <>
       <div className="mb-10">
         <Typography as="h4" level="h6" className="mb-2 font-bold">
-          Mint compressed Music or Art NFT
+          Mint compressed Multimedia or Digital Art NFT
         </Typography>
       </div>
       <MintNFTForm />

@@ -6,7 +6,7 @@ export default function Transfer() {
     <>
       <div className="mb-10">
         <Typography as="h4" level="h6" className="mb-2 font-bold">
-          Transfer compressed Music or Art NFT
+          Transfer compressed Multimedia or Digital Art NFT
         </Typography>
       </div>
       <TransferNFTForm />

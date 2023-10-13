@@ -51,7 +51,7 @@ export default function Transfer() {
     <>
       <div className="mb-10 flex items-center justify-between">
         <Typography as="h4" level="h6" className="mb-2 font-bold">
-          Music and Digital Art NFT Marketplace
+          Compressed Multimedia and Digital Art NFT Marketplace
           {/** <Pyth /> */}
         </Typography>
 
@@ -81,7 +81,7 @@ export default function Transfer() {
               {nfts.length === 0 ? (
                 <div className="py-10  flex flex-col items-center justify-center gap-5">
                   <Typography className="font-semibold" color="secondary">
-                    No Music NFT
+                    No  NFT
                   
                   </Typography>
                   <Link href="/mint">

@@ -9,7 +9,7 @@ import { IconButton } from "../ui/icon-button"
 
 export const NavItems = [
   {
-    text: "Index Page",
+    text: "Home",
     href: Routes.INDEX,
     icon: <FlameIcon />,
   },
@@ -49,13 +49,16 @@ export const Navigation = () => {
   const { asPath } = useRouter()
 
   return (
-    <nav className="hidden w-[280px] shrink-0 lg:block">
+    <nav className="hidden w-[280px] shrink-0 lg:block bg-blue-900">
       <div className="fixed flex flex-col left-0 top-0 z-0 h-full w-[280px] overflow-y-auto border-r border-dashed border-r-gray-500/24">
         <div className="mb-4 px-5 py-6">
           <a href="/" className="font-bold">
             <img src="/images/headphone2.jpeg" className="h-20 w-20 rounded-md" />
           </a>
         </div>
+        <div className="text-2xl font-bold items-start justify-left p-6"> 
+          EluMart 
+          </div>
         <div className="flex h-96 flex-col">
           <ul className="relative px-4">
             {NavItems.map((item) => (
@@ -83,7 +86,7 @@ export const Navigation = () => {
             >
               <TwitterIcon />
             </IconButton>
-            <IconButton color="primary" as="a" href="https://musikmart.vercel.app//" target="_blank" rel="noopener noreferrer">
+            <IconButton color="primary" as="a" href="https://elumart.vercel.app//" target="_blank" rel="noopener noreferrer">
               <img className="h-6 w-auto object-contain" src="/images/headphone2.jpeg" />
             </IconButton>
           </div>
@@ -112,8 +115,8 @@ export const NavItem = ({ text, href, selected, icon }: NavItemProps) => {
       >
         <span
           className={cn("h-6 w-6 rounded-full", {
-            "text-primary-500": selected,
-            "text-gray-600": !selected,
+            "text-primary-300": selected,
+            "text-white": !selected,
           })}
         >
           {icon}
@@ -121,8 +124,8 @@ export const NavItem = ({ text, href, selected, icon }: NavItemProps) => {
         <Typography
           level="body4"
           className={cn("font-semibold", {
-            "text-primary-500": selected,
-            "text-gray-600": !selected,
+            "text-primary-300": selected,
+            "text-white": !selected,
           })}
         >
           {text}

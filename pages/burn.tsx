@@ -6,7 +6,7 @@ export default function Transfer() {
     <>
       <div className="mb-10">
         <Typography as="h4" level="h6" className="mb-2 font-bold">
-          Burn compressed Music NFT
+          Burn compressed NFT
         </Typography>
       </div>
       <BurnNFTForm />

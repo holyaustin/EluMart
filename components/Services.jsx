@@ -24,7 +24,7 @@ const Services = () => (
     <div className="flex items-center justify-between md:p-20 py-12 px-4">
       <div className="flex-1 flex flex-col justify-start items-start mx-1 sm:mx-10">
         <h1 className="text-black text-3xl sm:text-5xl py-2 ">
-          Blockchain Musical Arts NFTs :  Check our Marketplace
+          Blockchain Multimedia and Digital Arts NFTs :  Check our Marketplace
           <br /> <br />
         </h1>
         <p className="my-2 text-black font-light md:w-11/12 w-11/12 text-2xl text-justify">

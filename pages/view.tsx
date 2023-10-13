@@ -50,7 +50,7 @@ export default function Marketplace() {
     <>
       <div className="mb-10 flex items-center justify-between">
         <Typography as="h4" level="h6" className="mb-2 font-bold">
-          Your compressed Music and Art NFTs
+          Your compressed Multimedia and Digital Art NFTs
         </Typography>
 
         <div className="w-auto">
@@ -79,7 +79,7 @@ export default function Marketplace() {
               {nfts.length === 0 ? (
                 <div className="py-10  flex flex-col items-center justify-center gap-5">
                   <Typography className="font-semibold" color="secondary">
-                    No Music NFT
+                    No NFT
                   </Typography>
                   <Link href="/mint">
                     <Button>Create one</Button>

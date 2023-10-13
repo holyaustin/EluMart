@@ -12,7 +12,7 @@ export default function Home() {
         <MainView />
       ) : (
         <div className='loginContainer'>
-          <div className='loginTitle'>Log in to MusikMart</div>
+          <div className='loginTitle'>Log in to EluMart</div>
           <div className='loginSubTitle'>
             Make sure to connect your wallet to Signup or Login to access Marketplace
           </div>

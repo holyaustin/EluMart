@@ -27,7 +27,7 @@ export const Header = () => {
         { "lg:h-[60px]": small }
       )}
     >
-      <div className="relative flex h-full min-h-[56px] items-center px-4 md:min-h-[64px] md:px-6 lg:px-10 bg-red-500">
+      <div className="relative flex h-full min-h-[56px] items-center px-4 md:min-h-[64px] md:px-6 lg:px-10 bg-blue-900">
         <NavigationMobile
           trigger={
             <IconButton className="mr-2 lg:hidden" size="sm">
@@ -41,11 +41,11 @@ export const Header = () => {
           </a>
         </div>
         <div className="text-2xl font-bold items-start justify-left p-6"> 
-          MusikMart 
+          EluMart 
           </div>
           <div className="text-2xl font-bold items-start justify-left"> 
           
-          <ul className="text-2xl font-bold  mb-6 flex flex-wrap items-center text-yellow-500 sm:mb-0">
+          <ul className="text-2xl font-bold  mb-6 flex flex-wrap items-center text-white sm:mb-0">
             <li>
               <a href="/marketplace" className="mr-4 hover:underline md:mr-6 ">
               EXPLORE
