@@ -1,0 +1,1 @@
+/home/augustine/Solana/2023/July2023/MusikMart/Smart_Contract/target/bpfel-unknown-unknown/release/libmusicmart.rlib: /home/augustine/Solana/2023/July2023/MusikMart/Smart_Contract/programs/musikmart/src/lib.rs

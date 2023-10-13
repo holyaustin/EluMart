@@ -1,0 +1,9 @@
+/home/augustine/Solana/2023/tiktokTest/tiktok-clone/target/bpfel-unknown-unknown/release/deps/spl_associated_token_account-aa9ea75db78a0fdc.so: /home/augustine/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-associated-token-account-1.0.3/src/lib.rs /home/augustine/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-associated-token-account-1.0.3/src/entrypoint.rs /home/augustine/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-associated-token-account-1.0.3/src/processor.rs
+
+/home/augustine/Solana/2023/tiktokTest/tiktok-clone/target/bpfel-unknown-unknown/release/deps/libspl_associated_token_account-aa9ea75db78a0fdc.rlib: /home/augustine/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-associated-token-account-1.0.3/src/lib.rs /home/augustine/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-associated-token-account-1.0.3/src/entrypoint.rs /home/augustine/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-associated-token-account-1.0.3/src/processor.rs
+
+/home/augustine/Solana/2023/tiktokTest/tiktok-clone/target/bpfel-unknown-unknown/release/deps/spl_associated_token_account-aa9ea75db78a0fdc.d: /home/augustine/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-associated-token-account-1.0.3/src/lib.rs /home/augustine/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-associated-token-account-1.0.3/src/entrypoint.rs /home/augustine/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-associated-token-account-1.0.3/src/processor.rs
+
+/home/augustine/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-associated-token-account-1.0.3/src/lib.rs:
+/home/augustine/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-associated-token-account-1.0.3/src/entrypoint.rs:
+/home/augustine/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-associated-token-account-1.0.3/src/processor.rs:

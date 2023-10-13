@@ -1,0 +1,17 @@
+[features]
+seeds = false
+
+[programs.devnet]
+musikmart = "9P8wQVP39pAauwbh9y1zv34sdcreXsdLeeojv4hrWc7W"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+start = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 app/start.ts"
