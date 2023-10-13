@@ -24,7 +24,7 @@ export const NavItems = [
     icon: <TreePineIcon />,
   },
   {
-    text: "Mint Music NFT",
+    text: "Mint cNFT",
     href: Routes.MINT_NFT,
     icon: <ImagePlusIcon />,
   },

@@ -15,7 +15,7 @@ import { Network, Nft } from "@/types"
 export default function Transfer() {
   const { connected, publicKey } = useWallet()
   const [loading, setLoading] = useState(false)
-  const [network, setNetwork] = useState<Network>("mainnet-beta")
+  const [network, setNetwork] = useState<Network>("devnet")
   const [nfts, setNFTs] = useState<Nft[]>([])
   const { toast } = useToast()
 
@@ -81,7 +81,7 @@ export default function Transfer() {
               {nfts.length === 0 ? (
                 <div className="py-10  flex flex-col items-center justify-center gap-5">
                   <Typography className="font-semibold" color="secondary">
-                    No  NFT
+                    No  cNFT
                   
                   </Typography>
                   <Link href="/mint">

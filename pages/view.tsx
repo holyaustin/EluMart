@@ -14,7 +14,7 @@ import { Network, Nft } from "@/types"
 export default function Marketplace() {
   const { connected, publicKey } = useWallet()
   const [loading, setLoading] = useState(false)
-  const [network, setNetwork] = useState<Network>("mainnet-beta")
+  const [network, setNetwork] = useState<Network>("devnet")
   const [nfts, setNFTs] = useState<Nft[]>([])
   const { toast } = useToast()
 
