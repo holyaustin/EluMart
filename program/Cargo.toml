@@ -1,0 +1,48 @@
+
+[package]
+name = "elumart"
+version = "0.0.1"
+edition = "2021"
+license = "mit"
+publish = false
+
+authors = ["holyaustin <holyaustin@yahoo.com>"]
+description = """
+This project seeks to address how music can be a Non Fungible asset. The web3 world is currently revolutionizing the Music Industry and Music digital art. We intend to make Music a Non-Fungible Token (NFT) that one can collect and have in thier wallet. The project seeks to create an on-chain music Dapp where young music talents can upload their creation and mint it to the Music marketplace as Video NFTs. This Musics and Digital Arts in the Marketplace can continue to make money for the creators.
+
+  - [Blockchain Extensions](https://docs.codigo.ai/category/blockchain-extensions)
+  - [Learning the Basics](https://docs.codigo.ai/código-interface-description-language/learning-the-basics)
+  - [Building Solana Program with CIDL: A Comprehensive Guide Part I](https://docs.codigo.ai/guides/part-1-building-solana-programs)
+"""
+homepage = "https://codigo.ai"
+repository = "https://github.com/holyaustin/EluMart"
+
+[dependencies]
+solana-program = ">=1.14, <1.17"
+borsh = "0.10.3"
+thiserror = "1"
+num-derive = "0.4"
+num-traits = "0.2"
+num_enum = "0.7.0"
+assert_matches = {version = "~1.5.0", optional = true}
+solana-logger = {version = ">=1.14, <1.17", optional = true}
+solana-program-test = {version = ">=1.14, <1.17", optional = true}
+solana-sdk = {version = ">=1.14, <1.17", optional = true}
+solana-validator = {version = ">=1.14, <1.17", optional = true}
+solana-rpc-client = {version = ">=1.14, <1.17", optional = true}
+
+
+
+[features]
+test-sbf = [
+    "assert_matches",
+    "solana-sdk/default",
+    "solana-logger",
+    "solana-program-test",
+    "solana-validator",
+    "solana-rpc-client"
+]
+
+[lib]
+crate-type = ["cdylib", "lib"]
+path = "./lib.rs"

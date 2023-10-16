@@ -1,0 +1,68 @@
+cidl: "0.8"
+info:
+  name: elumart
+  title: A collection of Compressed NFTs with Elusive Private Payment on Solana Blockchain.
+  version: 0.0.1
+  summary: |-
+    This project seeks to address how music can be a Non Fungible asset. The web3 world is currently revolutionizing the Music Industry and Music digital art. We intend to make Music a Non-Fungible Token (NFT) that one can collect and have in thier wallet. The project seeks to create an on-chain music Dapp where young music talents can upload their creation and mint it to the Music marketplace as Video NFTs. This Musics and Digital Arts in the Marketplace can continue to make money for the creators.
+    
+      - [Blockchain Extensions](https://docs.codigo.ai/category/blockchain-extensions)
+      - [Learning the Basics](https://docs.codigo.ai/código-interface-description-language/learning-the-basics)
+      - [Building Solana Program with CIDL: A Comprehensive Guide Part I](https://docs.codigo.ai/guides/part-1-building-solana-programs)
+  contact:
+    name: holyaustin
+    web: https://codigo.ai
+    email: holyaustin@yahoo.com
+    git: https://github.com/holyaustin/EluMart
+  license:
+    name: MIT
+    url: https://opensource.org/license/mit
+types:
+  Record:
+    summary: Through this data structure we will store the relevant information to track a given user registering to use the elumart platform.
+    solana:
+      owner: self
+      seeds:
+        - name: record
+        - name: signer
+          type: sol:pubkey
+    fields:
+      - name: user_name
+        type: string
+        solana:
+          attributes: [ cap:50 ]
+        description: The name of the user.
+
+      - name: image_url
+        type: u32
+        description: profile image url.
+
+      # TODO: 1 - Complete the definition of the Record data structure
+      # Add the following fields
+      #   - moves of type u16
+      #   - outcome of type u32
+      #   - income of type u32
+      #   - total_balance of type i64
+methods:
+  - name: create_user
+    summary: To call once per account. Initialize a Record account. T
+    inputs:
+      - name: user_record
+        type: Record
+        solana:
+          attributes: [ init_if_needed ]
+      - name: user_name
+        type: string
+        description: The username to be assigned to the Record.name property
+      - name: profile_url
+        type: string
+        description: The user profile url
+  # TODO: 2 - Define the register_income method
+  #  - Add the following inputs
+  #  - record of type Record, and the attribute mut
+  #  - amount of type u32
+
+  # TODO: 3 - Define the register_outcome method
+  #  - Add the following inputs
+  #  - record of type Record, and the attribute mut
+  #  - amount of type u32

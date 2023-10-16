@@ -53,7 +53,7 @@ const App = () => {
     };
 
     setParams();
-  }, []);
+  }, [elusiv]);
 
   const topup = async (
     elusivInstance: Elusiv,

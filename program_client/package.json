@@ -1,0 +1,23 @@
+{
+  "name": "elumart",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "holyaustin",
+    "email": "holyaustin@yahoo.com",
+    "url": "https://codigo.ai"
+  },
+  "repository": {
+    "url": "https://github.com/holyaustin/EluMart"
+  },
+  "description": "This project seeks to address how music can be a Non Fungible asset. The web3 world is currently revolutionizing the Music Industry and Music digital art. We intend to make Music a Non-Fungible Token (NFT) that one can collect and have in thier wallet. The project seeks to create an on-chain music Dapp where young music talents can upload their creation and mint it to the Music marketplace as Video NFTs. This Musics and Digital Arts in the Marketplace can continue to make money for the creators.\n\n  - [Blockchain Extensions](https://docs.codigo.ai/category/blockchain-extensions)\n  - [Learning the Basics](https://docs.codigo.ai/código-interface-description-language/learning-the-basics)\n  - [Building Solana Program with CIDL: A Comprehensive Guide Part I](https://docs.codigo.ai/guides/part-1-building-solana-programs)",
+  "dependencies": {
+    "@solana/web3.js": "^1.78.3",
+    "borsh": "^1.0.0",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

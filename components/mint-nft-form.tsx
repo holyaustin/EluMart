@@ -40,12 +40,12 @@ const formSchema = z.object({
     .array(
       z.object({
         trait_type: z
-          .string({ required_error: "This field is required." })
+          .string()
           .trim()
           .min(1, "This field is required.")
           .max(10, `The maximum allowed length for this field is 10 characters`),
         value: z
-          .string({ required_error: "This field is required." })
+          .string()
           .trim()
           .min(1, "This field is required.")
           .max(32, `The maximum allowed length for this field is 32 characters`),
